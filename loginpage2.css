@@ -1,0 +1,86 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Girl Image */
+.girl {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    left: 220px; 
+}
+.girl img {
+    width: 420px;
+    height: auto;
+}
+
+/* GLB Logo */
+#glbLogo {
+    position: absolute;
+    top: 80px;
+    right: 545px;
+    width: 170px; 
+}
+
+/* Text Styles */
+#text {
+    position: absolute;
+    top: 250px;
+    right: 623px;
+    font-size: 20px;
+}
+#text1 {
+    color: #313131;
+    position: absolute;
+    top: 280px;
+    right: 410px;
+    font-size: 16px;
+}
+#text2 {
+    margin-top: 20px;
+    position: absolute;
+    right: 566px;
+    font-size: 16px;
+}
+
+/* OTP Input Boxes */
+.OTPbox {
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    margin-right: 430px;
+    margin-top: 400px;
+}
+.OTPbox input {
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #FF2359;
+    color: white; /* Adjust text color for contrast */
+}
+
+/* Submit Button */
+#SubmitButton {
+    position: absolute;
+    top: 590px;
+    right: 430px;
+    width: 340px;
+    height: 50px; 
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF2359;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#SubmitButton:hover {
+    background-color: rgb(0, 0, 0);
+}
